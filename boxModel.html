@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>Box Model</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Laura">
+        <meta name="description" content="Teste pra estudar Box Model">
+        <meta name="keywords" content="Box Model, CSS, HTML5">
+    
+        <!--tudo que tiver dentro da tag style é CSS-->
+        <style>
+            body{
+                background-color: aqua;
+            }
+
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 40px;
+                font-style: normal;
+                font-variant: small-caps;
+                text-align: center;
+                color: #ff00ff;
+                background-color: yellow;
+
+                /*aqui começa o box model*/
+                /*margin é o espaçamento externo ao elemento*/
+                margin-left: 0px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                /*padding é o espaçamento interno do elemento*/
+                padding-left: 25px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                padding-right: 25px;
+                /*largura e altura
+                width: 150px;
+                height: 500px;*/
+            }
+
+            h2{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 28px;
+                font-style: normal;
+                font-variant: small-caps;
+                text-align: center;
+                text-transform: lowercase;
+                color:black;
+                /*box model*/
+                /*para borda é preciso PELO MENOS 3 propriedades (cor, tipo e espessura)*/
+                border-color: red;
+                border-style: dashed;
+                border-width: 10px;
+                padding: 25ps;
+                
+            }
+
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+                font-variant: normal;
+                text-align: left;
+                text-indent: 20px;
+                text-transform: none;
+                /*box model*/
+                margin-bottom: 50px;
+            } 
+
+            #destaque{
+                color: white;
+                background-color: black;
+            }
+
+            .destaqueClasse{
+                color: white;
+                background-color: #ff00ff;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Iniciando com CSS</h1>
+        <h2>Página HTML para treinar Box Model!</h2>
+        
+        <p class="destaqueClasse">Minions ipsum po kass gelatooo poulet tikka masala baboiii butt. Underweaaar aaaaaah poopayee
+            la bodaaa tulaliloo.
+            Aaaaaah poulet tikka masala tank yuuu! Bee do bee do bee do poopayee la bodaaa uuuhhh. Butt aaaaaah gelatooo
+            bappleees.
+            Tank yuuu! poulet tikka masala hahaha aaaaaah. Baboiii potatoooo tatata bala tu hahaha. Tatata bala tu butt po kass
+            ti
+            aamoo! Bananaaaa. Butt butt jiji bananaaaa potatoooo wiiiii pepete. Baboiii wiiiii hana dul sae para tú bappleees
+            bee do
+            bee do bee do tank yuuu! Me want bananaaa! Aaaaaah bee do bee do bee do.</p>
+        <p id="destaque">Jeje para tú po kass la bodaaa jiji po kass tank yuuu! Potatoooo bee do bee do bee do. Poulet tikka
+            masala bappleees tank
+            yuuu! Para tú para tú aaaaaah me want bananaaa! Potatoooo potatoooo. Pepete poopayee belloo! Gelatooo jeje uuuhhh.
+            Daa
+            hahaha tulaliloo la bodaaa tank yuuu! Pepete tulaliloo bee do bee do bee do chasy. Butt jeje para tú po kass.
+            Gelatooo
+            bananaaaa bananaaaa baboiii po kass me want bananaaa! Baboiii hana dul sae wiiiii gelatooo baboiii. Potatoooo uuuhhh
+            bappleees po kass para tú pepete pepete po kass chasy baboiii. Uuuhhh bappleees belloo! Me want bananaaa! Poopayee
+            daa
+            potatoooo bee do bee do bee do tulaliloo ti aamoo! Gelatooo jeje bee do bee do bee do gelatooo poulet tikka masala
+            hahaha.</p>
+        <p class="destaqueClasse">La bodaaa chasy chasy hahaha wiiiii po kass hana dul sae aaaaaah potatoooo wiiiii underweaaar.
+            Bappleees tatata bala tu
+            baboiii po kass pepete poopayee hana dul sae po kass daa. Poopayee tulaliloo daa hahaha potatoooo wiiiii wiiiii.
+            Gelatooo wiiiii hahaha poopayee gelatooo la bodaaa bananaaaa pepete bee do bee do bee do belloo! Para tú. Uuuhhh
+            wiiiii
+            ti aamoo! Hahaha bananaaaa hahaha la bodaaa bananaaaa poopayee chasy tatata bala tu.</p>
+    </body>
+</html>
